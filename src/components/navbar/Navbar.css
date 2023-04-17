@@ -1,0 +1,37 @@
+.navbar-container{
+    width: 310px;
+    background-color: #075fbc;
+    color: #fff;
+    height:100vh;
+    /* border-right: 5px solid #fff; */
+    position:fixed;
+}
+.student-details{
+    text-align: center;
+    padding:10px;
+    font-size:26px;
+    font-weight:bold;
+}
+.student-details>div>img{
+    margin-top:20px;
+    height:140px;
+    width:150px;
+    border-radius:80px;
+    margin-bottom:20px;
+}
+.navbar-list{
+    margin-left:-40px;
+    list-style-type: none;
+    text-align: center;
+    cursor: pointer;
+}
+.navbar-list>li{
+    padding:10px;
+    margin:15px;
+    font-size:20px;
+}
+
+.navbar-list>li:hover{
+    background-color: #1f1f1f;
+    border-radius: 10px;
+}
